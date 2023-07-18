@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.testimonialbody {
+    text-align: center;
+}
+
+.quote {
+    font-size: xx-large;
+}
+
+.quoter {
+    color: rgb(61, 61, 61);
+}
+
+#quoterwrap {
+	position:relative;
+}
+.quoter span { 
+	position:absolute;
+	visibility:hidden;
+}
+.quoter:hover, .quoter:hover span { 
+	visibility:visible;
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
+}
